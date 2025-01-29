@@ -5,6 +5,6 @@ import GoogleDriveFolder from './GoogleDriveFolder.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <GoogleDriveFolder folderId=`${folderId}` apiKey=`${apiKey}` />
+    <GoogleDriveFolder folderId=`${folderIdd}` apiKey=`${apiKeyy}` />
   </StrictMode>,
 )
