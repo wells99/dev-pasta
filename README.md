@@ -1,9 +1,16 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 # dev-pasta
+
+A ideia principal desse repositório é construir a visualização de uma pasta compartilhada do google drive, podendo modificar o estilo ou integrar em um site já existente.
+
+# Para utilizar em uma pasta compartilhada (publica)
+
+Basta passar o parametro folderId ao chamar o componente GoogleDriveFolder no main.jsx - esse projeto tem uma chave de acesso para teste por tempo limitado
+
+OBS:folderId="Seu folderId é a parte final do link da pasta compartilhada"
+
+# Para utilizar em uma pasta privada (visivel somente ao proprietário)
+
+Alem do parametro folderId também é necessário por sua chave api no parametro
+apiKey ao chamar o componente GoogleDriveFolder no main.jsx 
+
+OBS:apiKey="é necessario gerar a sua chave usando o https://console.cloud.google.com/"
